@@ -21,6 +21,7 @@ function startProcedure (event) {
         itemToAdd.value="";
         //add event listener to delete button
         deleteBtnInstance.addEventListener("click", deleteItem);
+        itemToAdd.focus();
     }
 }
 
